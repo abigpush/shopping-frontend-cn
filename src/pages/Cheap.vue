@@ -15,7 +15,7 @@
       </div>
 
       <div class="cheap-item" v-for="item in cheaps">
-        <a :href="item.url" target="_blank">
+        <a :href="item.url"  isconvert=1 target="_blank">
           <div class="pic"><img :src="item.listImage"></div>
           <p class="time">{{changeTime(item.syncTime)}}</p>
           <p>{{item.title}}</p>
