@@ -69,7 +69,7 @@
       changePage: function(i){
         var obj =Object.assign({}, this.$route.query, {page:i})
         var d = qs.stringify(obj);
-        this.$router.push({path:'/?'+d})
+        this.$router.push({path:this.$route.path+'?'+d})
         document.body.scrollTop = 0
         document.documentElement.scrollTop = 0
       },
