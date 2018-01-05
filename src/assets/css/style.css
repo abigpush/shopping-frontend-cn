@@ -1,0 +1,106 @@
+﻿/*====================  ====================*/
+.brand-filter{ background-color: #fff; box-shadow: 0 0 2px rgba(0,0,0,0.1); border-bottom: 1px solid #f2f2f2; padding: 10px 10px 0}
+.brand-filter dl{ display: block; overflow: hidden; _zoom:1; margin: 5px 0}
+.brand-filter dl dt{ float: left; font-size: 14px; line-height: 25px}
+.brand-filter dl dd a{height:25px;line-height:25px;padding:0 8px;display:block;float:left;margin-right:7px;margin-bottom:10PX;background:#f5f5f5;color:#666;text-decoration:none;border-radius:3px}
+.brand-filter dl dd a:hover, .brand-filter dl dd a.on{background:#ff2069;color:#fff}
+
+/*==================== 产品 ====================*/
+.pic{text-align:center; position:relative; display:table-cell; vertical-align:middle}
+.pic .subpic{*position:absolute; top:50%; left:50%}
+.pic .subpic img{*position:relative; top:-50%; left:-50%}
+
+.product{ box-shadow: 0 0 2px rgba(0,0,0,0.1)}
+.product-item{ padding-bottom: 10px; height: 190px; border-bottom: 1px solid #f2f2f2; position: relative; background-color:#fff}
+.product-item .title{ height: 50px; top: 20px;line-height: 25px; position: absolute; left: 220px; color: #444; overflow: hidden; font-weight: 500; font-size: 17px; padding-right: 10px}
+.product.detail .detail-info .title span,.product-item .title span{color:#d42f2f;font-weight: bold;padding-right: 5px}
+.product.detail .detail-info .title span i,.product-item .title span i{    text-decoration: line-through; font-style: normal;}
+.product-item .info{ position: absolute; left: 220px; top: 75px; color: #999; line-height: 20px; height: 80px; overflow: hidden; font-size: 13px; padding-right: 20px}
+.product-item .pic{width: 200px;height: 200px}
+.product-item .pic .subpic img{ max-width: 180px; max-height: 180px; vertical-align: top}
+.product-item .tobuywordBtn{ background-color: #ff2069; font-family: Arial; font-size: 14px; color: #fff; text-decoration: none; width: 95px; height: 30px; text-align: center; line-height: 30px; display: inline-block; position: absolute; bottom: 15px; right: 20px; border-radius: 3px; font-weight: 600}
+.product-item .tobuywordBtn:hover{ background-color: #e91e6f}
+.product-item .rightmall{ position: absolute; bottom: 25px; right: 125px; color: #48a753}
+.product-item .rightmall a{ color: #323232; font-weight: 500; font-family: Arial}
+.product-item .upvote{position: absolute;left:220px;bottom:58px;cursor: pointer}
+.product-item .upvote .upvoteNum{position: absolute;left:45px;top:0px;line-height: 55px ;color: #aaa}
+.product-item .upvote .upvoteNum:hover{color:#eb7350}
+.detail-upvote{position: absolute;left:120px;top:375px;cursor: pointer}
+.detail-upvote .upvoteNum{position: absolute;left:45px;top:0px;line-height: 55px ;color: #aaa}
+.detail-upvote .upvoteNum:hover{color:#eb7350}
+.product-item .goodSource{position: absolute;left:290px;bottom:18px;font-size:12px;line-height: 25px ;color: #aaa}
+
+
+.rank .hd{ height: 25px; line-height: 25px;padding: 8px; background-color: #fff; border-bottom: 1px solid #dedede}
+.rank .hd h3{ font-size: 15px; float: left; line-height: 15px; margin-top: 6px; font-weight: 600}
+.rank .hd h3:before{ content: " "; border-left: 3px solid #ff2069; margin-top: 3px; margin-right: 8px}
+.rank .product-item{ padding: 5px; height: 70px}
+.rank .product-item .title{ height: 50px; top: 10px;line-height: 25px;left: 80px; font-size: 15px}
+.rank .product-item .pic{width: 70px;height: 70px}
+.rank .product-item .pic .subpic img{ max-width: 60px; max-height: 60px; vertical-align: top}
+
+
+.crumbs{ color:#999; font-size:12px; height:40px; line-height:40px; border-bottom:1px solid #f2f2f2; background-color: #fff; padding-left: 10px}
+.crumbsCate{ display:inline}
+.crumbs .arrow,span.arrow{ font-family:"SimSun";padding:0 4px}
+.crumbs a{ color:#444; font-family: Arial}
+.crumbs a:hover{ color:#ff2069}
+
+
+.product.detail .detail-info{ min-height: 400px; background-color: #fff; position: relative; padding: 10px 10px 10px 10px}
+.product.detail .detail-info .title{ text-align:center;line-height: 25px; color: #444; overflow: hidden; font-weight: 500; font-size: 17px; margin-bottom: 20px}
+.product.detail .detail-info p{ color: #999; line-height: 20px; overflow: hidden; font-size: 13px; margin: 10px 0}
+.product.detail .detail-info .buy + p img {width:55%;height:auto;display: block;margin:0px auto;}
+.product.detail .detail-info .buy{margin:0px auto;text-align: center;}
+.product.detail .detail-info .buy a { background-color: #ff2069; font-family: Arial; font-size: 16px; color: #fff; text-decoration: none; width: 135px; height: 40px; text-align: center; line-height: 40px; display: inline-block; border-radius: 3px; margin-top: 10px}
+.product.detail .detail-info .buy a:hover {background-color: #e91e6f}
+.product.detail .picInfo{ position: absolute; left: 0; top: 0; text-align: center; font-size: 14px}
+.product.detail .picInfo .pic{width: 300px;height: 300px}
+.product.detail .picInfo .pic .subpic img{ max-width: 280px; max-height: 280px; vertical-align: top}
+.product.detail .picInfo .tobuywordBtn{ background-color: #ff2069; font-family: Arial; font-size: 16px; color: #fff; text-decoration: none; width: 135px; height: 40px; text-align: center; line-height: 40px; display: inline-block; border-radius: 3px; margin-top: 10px}
+.product.detail .picInfo .tobuywordBtn:hover{ background-color: #e91e6f}
+.product.detail .picInfo .rightmall{ margin-top: 15px}
+.product.detail .picInfo .rightmall a{ color: #ff2069; font-size: 14px; font-family: Arial}
+
+.feednotify{background: #e7f6e7;display: block;text-align: center;box-shadow: 0 1px 2px rgba(0,0,0,0.1);  cursor: pointer;}
+.feednotify span:nth-child(2){line-height: 350%;  color: #5db95b;  font-size: 13px;}
+.feednotify span:nth-child(1){ line-height: 350%;  color: #ff998a;  font-size: 13px;}
+
+.search_no{background: #fff}
+.search_no_box{  background: url(../images/no_items.jpg) no-repeat center 90px;  padding: 380px 0 130px;  text-align: center;  font-size: 16px;  }
+
+.appendix{background: #fff;min-height: 600px;padding: 20px 30px}
+.appendix h1{font-size: 20px;padding-bottom: 20px}
+.appendix p{font-size: 14px;line-height: 20px;margin-top: 10px;}
+.appendix .items{padding: 10px ;}
+.appendix .items span{font-size: 14px ;height: 22px;  line-height: 22px;font-weight: bold;width: 160px;display: block;}
+.appendix .items input{outline-style: none;  -webkit-appearance: none;width: 388px;  height: 22px;  line-height: 22px;  padding: 5px;  border: 1px solid #d2d2d2;  font: 12px "Arial";  color: #aaa;}
+.appendix .items textarea{outline-style: none;  -webkit-appearance: none;width: 388px;  height: 174px;  border: 1px solid #d3d3d3;  padding: 5px;  color: #aaa;    resize: none;font: 12px "Arial";vertical-align: middle;}
+.appendix .items .submit{width: 100px;height: 35px;background: #ff2069;text-align: center;line-height: 35px;margin-left: 144px;color: #fff;border-radius: 2px;cursor: pointer}
+.appendix .items .submit:hover{background: #e91e6f}
+
+/*推荐商品*/
+.recommending-commodities{margin-top: 10px}
+.recommending-commodities .item{width: 25%;background: #ffffff;float: left}
+.recommending-commodities .item a{width: 92%;margin: 4%;display: block;border: 1px solid #ffffff;cursor: pointer}
+.recommending-commodities .item a:hover{box-shadow:0 0 6px #ddd;}
+
+.recommending-commodities .item .pack{width: 92%;margin: 4%;display: block}
+.recommending-commodities .item .subpic{ width: 100%; }
+.recommending-commodities .item .subpic img{width:100%;background-size:cover;height: 160px}
+.recommending-commodities .item p{margin-top:10px;font-size:13px;height: 34px;line-height: 17px;display: -webkit-box;  -webkit-box-orient: vertical;  -webkit-line-clamp: 2;overflow: hidden;color: #999999}
+
+/*九块九商品块*/
+.cheap-item{width: 25%;background: #ffffff;float:left;}
+.cheap-item a{width: 94%;margin: 2% auto;display: block;border: 1px solid #ffffff;cursor: pointer;zoom:1;overflow:hidden;padding-bottom: 2%;}
+.cheap-item a:hover{box-shadow:0 0 6px #ddd;}
+.cheap-item .pic{width:100%;display: block;height:0px;padding-bottom:100%;overflow: hidden;}
+.cheap-item .pic img{width:100%;height:auto;}
+.cheap-item p{padding:0px 5px;font-size:13px;height: 38px;line-height: 19px;display: -webkit-box;  -webkit-box-orient: vertical;  -webkit-line-clamp: 2;overflow: hidden;color: #666;}
+.cheap-item .time{font-size:12px;height:auto;color: #ccc;margin-top:3px;}
+.cheap-item .pre-p{font-size: 12px;color:#d42f2f;vertical-align:baseline;}
+.cheap-item .price{font-size:20px;line-height:32px;display:block;float:left;height:32px;margin-left: 5px;text-align: left;font-weight: bolder;color:#d42f2f;}
+.cheap-item .btn {height:32px;font-size:14px;line-height: 32px;display: block;float:right;padding:0px 5px;text-align:center;margin-right:5px;border:1px dotted #d42f2f;background-color:#fbe7e8;color:#d42f2f;}
+.cheap-item .btn:hover{color:#fff;background-color: #d42f2f;}
+
+
