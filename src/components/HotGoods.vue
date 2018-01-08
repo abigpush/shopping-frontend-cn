@@ -37,6 +37,7 @@
     flag:false// 延后获取初始位置的flag
   }),
   mounted () {
+    this.handleScroll();
     window.addEventListener('scroll', this.handleScroll)
     this.offsetTop = document.querySelector('#hotGoods').offsetTop
   },
