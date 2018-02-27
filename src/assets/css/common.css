@@ -12,7 +12,8 @@ html,body{ min-width: 960px; margin: 0 auto; background-color: #f1f1f1}
 /*==================== 头部导航 ====================*/
 .headBar{ background-color: #fff}
 .headBar .inner{ width:100%; min-width:960px; max-width:1110px; height:120px; margin:0 auto; position:relative; z-index:500}
-.headBar .logo{ background:url(); float:left; width:204px; height:52px; background-size:100%; margin-top:35px; font-size: 4em; color: #444; font-style: italic}
+.headBar .logo{ background:url(); float:left; width:204px; height:52px; background-size:100%; margin-top:15px; font-size: 4em; color: #444; font-style: italic}
+.headBar .logo img{width:100%;}
 .headBar .search{ width:520px; position:absolute; top:40px; left:50%; margin-left:-240px}
 .headBar .search-box{ height:30px; position:relative}
 .headBar .search-txt{ float:left; border:2px solid #ff2069; width:437px; line-height:28px; height:28px; margin:0; padding:0 0 0 8px}

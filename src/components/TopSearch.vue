@@ -9,9 +9,9 @@
               <input type="text" class="search-txt" v-model="search" @keyup.enter="doSearch">
               <span class="search-btn" @click="doSearch"></span>
             </div>
-            <div class="hotword clearfix">
+            <!-- <div class="hotword clearfix">
               <a v-for="(h,index) in hotWords" v-bind:class="{on:index%2 != 0}" @click="changePage(h.hotword)">{{h.hotword}}</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
