@@ -36,8 +36,8 @@
       </div>
       <div class="beian">
         <pre>
-          ©2017 大推网 版权所有
-          浙ICP备17058741号
+          ©2017 逛鱼网 版权所有
+          浙ICP备17058741号-2
           <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002013221" target="_blank"><img src="../assets/images/beian.png"/></a> 浙公网安备 33011002013221号 
         </pre>
       </div>
